@@ -14,13 +14,17 @@ if(num1 < num2){
         }
     }
 
+    else {
+        sum = num1;
+    }
+
     else if(num1 < 0 || num2 < 0){
         return "ERROR";
     }
 
     
 
-    else if (num1 != Number || num2 != Number){
+    else if (typeof num1 != Number || typeof num2 != Number){
         return "ERROR";
     }
 
